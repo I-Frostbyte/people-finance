@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&family=Poppins:wght@300;400;500;600;800&family=Quicksand:wght@300;400;500;600;700&family=Style+Script&family=VT323&display=swap');
+
+* {
+  font-family: 'Quicksand';  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: linear-gradient(45deg, #023020 0 85%, #296E01);
+}
+
+/* .home {
+  background: linear-gradient(45deg, #023020 0 85%, #296E01);  
+} */
+
+/* #50C878 - light green */
+/* #d4af37 - metallic gold*/
+
+/* #items-list-container{
+  background: linear-gradient(to left top, #023020 0 75%, #296E01);  
+} */
+
+#list-items{
+  background: linear-gradient(to left top, #023020 0 75%, #296E01);  
+}
+
+#second-grid{
+  background: linear-gradient(325deg, #023020 0 75%, #133201);
+  /* border: none;
+  outline: none; */
 }
