@@ -53,3 +53,10 @@ body {
   color: #d4af37;
   backdrop-filter: blur(50px);  
 }
+
+/*
+"homepage": "https://I-Frostbyte.github.io/",
+
+"predeploy": "npm run build",
+"deploy": "gh-pages -b master -d build",
+*/
