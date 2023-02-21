@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div className='about-us'>
         <Navbar />
-        <div className="my-[1000px]"></div>
+        <div className="py-[1000px]"></div>
         <Footer />
     </div>
   )

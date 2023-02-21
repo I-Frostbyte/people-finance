@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className='contact'>
         <Navbar />
-        <div className="my-[1000px]"></div>
+        <div className="py-[1000px]"></div>
         <Footer />
     </div>
   )
